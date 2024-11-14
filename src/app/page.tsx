@@ -4,7 +4,7 @@ import { useAuth } from "@/hooks/useAuth";
 import LandingLayout from "./(landing)/layout";
 import DashboardLayout from "./dashboard/layout";
 import LandingPage from "./(landing)/page";
-import DashboardPage from "./dashboard/dashboard/page";
+import DashboardPage from "./dashboard/page";
 
 export default function HomePage() {
   const { isLoggedIn } = useAuth();
