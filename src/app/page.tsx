@@ -26,7 +26,6 @@
 
 "use client";
 
-import { useAuth } from "@/hooks/useAuth";
 import LandingLayout from "./(landing)/layout";
 import LandingPage from "./(landing)/page";
 
