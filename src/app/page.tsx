@@ -26,15 +26,12 @@
 
 "use client";
 
-import LandingLayout from "./(landing)/layout";
 import LandingPage from "./(landing)/page";
 
 export default function HomePage() {
   return (
     <main className="no-scrollbar overflow-hidden">
-      <LandingLayout>
-        <LandingPage />
-      </LandingLayout>
+      <LandingPage />
     </main>
   );
 }
